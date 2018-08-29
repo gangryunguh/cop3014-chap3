@@ -12,7 +12,9 @@ int main()
    cin >> books;
    cout << "How many months will it take you to read them? ";
    cin >> months;
-   perMonth = static_cast<double>(books) / months;
+
+   // compute months per a book and set the double value into variable perMonth
+
    cout << "That is " << perMonth << " books per month.\n";
    return 0;
 } 

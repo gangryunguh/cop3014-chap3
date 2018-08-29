@@ -11,10 +11,15 @@ int main()
    cout << "This program calculates the area of a ";
    cout << "rectangle.\n";
    cout << "What is the length of the rectangle? ";
-   cin >> length;
+
+   // read an integer value from keayboard into variable length
+
    cout << "What is the width of the rectangle? ";
-   cin >> width;
-   area = length * width;
+
+   // read an integer value from keayboard into variable width
+
+   // compute the area and set the computed value into variable area
+
    cout << "The area of the rectangle is " << area << ".\n";
    return 0;
 }

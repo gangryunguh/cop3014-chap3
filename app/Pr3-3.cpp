@@ -10,7 +10,11 @@ int main()
    char letter;
 
    cout << "Enter an integer, a double, and a character: ";
-   cin >> whole >> fractional >> letter;
+
+   // From keyboard, read an integer value into variable whole, followed by reading
+   // a double value into variable fractional, followed by reading a char value
+   // into variable letter
+
    cout << "Whole: " << whole << endl;
    cout << "Fractional: " << fractional << endl;
    cout << "Letter: " << letter << endl;

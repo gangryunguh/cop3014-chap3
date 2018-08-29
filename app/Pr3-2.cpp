@@ -12,8 +12,11 @@ int main()
    cout << "rectangle.\n";
    cout << "Enter the length and width of the rectangle ";
    cout << "separated by a space.\n";
-   cin >> length >> width;
-   area = length * width;
-   cout << "The area of the rectangle is " << area << endl;
+
+   // From keyboard, read an integer value into variable length, followed by reading
+   // an integer value into variable width
+
+   // compute the area and set the computed value into variable area
+
    return 0;
 } 

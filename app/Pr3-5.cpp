@@ -12,8 +12,13 @@ int main()
 
    cout << "This program calculates the area of a circle.\n";
    cout << "What is the radius of the circle? ";
+
+   // From keyboard, read an integer value into variable radius
    cin >> radius;
-   area = PI * pow(radius, 2.0);
+
+   // compute the area of a circle using pow math function and set it to the variable area
+
+
    cout << "The area is " << area << endl;
    return 0;
 }

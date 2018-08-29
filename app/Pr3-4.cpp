@@ -12,10 +12,15 @@ int main()
    cout << "This program shows the decimal value of ";
    cout << "a fraction.\n";
    cout << "Enter the numerator: ";
-   cin >> numerator;
+   // From keyboard, read a double value into variable numerator
+
    cout << "Enter the denominator: ";
-   cin >> denominator;
+
+   // From keyboard, read a double value into variable denominator
+
    cout << "The decimal value is ";
-   cout << (numerator / denominator) << endl;
+
+   // Print the decimal value to console
+
    return 0;
 }

@@ -9,16 +9,16 @@ int main()
     double test1, test2, test3;  // To hold the scores
     double average;              // To hold the average
 
-    // Get the three test scores.
+    // From keyboard, reading three double test scores into variables test1, test2, and test3
     cout << "Enter the first test score: ";
-    cin >> test1;
+
     cout << "Enter the second test score: ";
-    cin >> test2;
+
     cout << "Enter the third test score: ";
-    cin >> test3;
+
     
-    // Calculate the average of the scores.
-    average = (test1 + test2 + test3) / 3.0;
+    // Calculate the average of the scores and set the double value into variable average.
+
     
     // Display the average.
     cout << "The average score is: " << average << endl;
