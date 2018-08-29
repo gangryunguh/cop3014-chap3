@@ -20,9 +20,13 @@ int main()
    // Seed the random number generator.
    srand(seed);
 
+
    cout << "Rolling the dice...\n";
-   die1 = (rand() % (MAX_VALUE - MIN_VALUE + 1)) + MIN_VALUE;
-   die2 = (rand() % (MAX_VALUE - MIN_VALUE + 1)) + MIN_VALUE;
+   // generate the random value betwen 1..6 and set it into variable die1
+
+   // generate the random value betwen 1..6 and set it into variable die2
+
+
    cout << die1 << endl;
    cout << die2 << endl;
    return 0;

@@ -14,7 +14,11 @@ int main()
    cin >> a;
    cout << "Enter the length of side b: ";
    cin >> b;
-   c = sqrt(pow(a, 2.0) + pow(b, 2.0));
+
+   // Compute the hypotenuse of the right triangle formed by a and b.
+   // Store the hypotenuse into variable c.
+   //     use math function pow and sqrt
+
    cout << "The length of the hypotenuse is ";
    cout << setprecision(2) << c << endl;
    return 0;

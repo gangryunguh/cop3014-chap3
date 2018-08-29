@@ -19,7 +19,8 @@ int main()
    // Calculate the total sales.
    total = day1 + day2 + day3;
    
-   // Display the sales amounts.
+   // Display the sales amounts - revise the following cout statements to print it with right-justification
+   //     Note that setw() is for left-justification format.
    cout << "\nSales Amounts\n";
    cout << "-------------\n";
    cout << setprecision(5);

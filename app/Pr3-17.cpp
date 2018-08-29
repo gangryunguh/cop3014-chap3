@@ -22,6 +22,9 @@ int main()
    // Display the sales amounts.
    cout << "\nSales Amounts\n";
    cout << "-------------\n";
+
+   // Please test and validate whether setprcision() and fixed() are sticky functions or not.
+   // This will appear in the 1st upcomming exam.
    cout << setprecision(2) << fixed;
    cout << "Day 1: " << setw(8) << day1 << endl;
    cout << "Day 2: " << setw(8) << day2 << endl;

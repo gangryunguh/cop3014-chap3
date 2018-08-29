@@ -12,9 +12,8 @@ int main()
    // Seed the random number generator.
    srand(seed);
    
-   // Display three random numbers.
-   cout << rand() << endl;
-   cout << rand() << endl;
-   cout << rand() << endl;
+   // Display three random numbers using the rand function
+
+
    return 0;
 }

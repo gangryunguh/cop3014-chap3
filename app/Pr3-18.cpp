@@ -10,9 +10,14 @@ int main()
 	string city;
 
 	cout << "Please enter your name: ";
-	cin >> name;
+	// From keyboard, reading characters until encountering whitespace character and set this
+	// sequence of chars into string variable name
+
+
 	cout << "Enter the city you live in: ";
-	cin >> city;
+	// From keyboard, reading characters until encountering whitespace character and set this
+	// sequence of chars into string variable city
+
 
 	cout << "Hello, " << name << endl;
 	cout << "You live in " << city << endl;

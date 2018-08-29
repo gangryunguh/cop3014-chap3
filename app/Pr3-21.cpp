@@ -8,11 +8,14 @@ int main()
 	char ch;
 
 	cout << "This program has paused. Press Enter to continue.";
-	cin.get(ch);
+	// From keyboard, read one character into variable ch using cin get method
+
 	cout << "It has paused a second time. Please press Enter again.";
-	ch = cin.get();
+	// From keyboard, read one character into variable ch using cin get method
+
 	cout << "It has paused a third time. Please press Enter again.";
-	cin.get();
+	// From keyboard, read one character into variable ch using cin get method
+
 	cout << "Thank you!";
 	return 0;
 }

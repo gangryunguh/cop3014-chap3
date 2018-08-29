@@ -10,7 +10,9 @@ int main()
 
 	cout << "Enter a number: ";
 	cin >> number;
-	cin.ignore();					// Skip the newline character
+
+    // From keyboard, skip the newline character using cin ignore method
+
 	cout << "Enter a character: ";
 	ch = cin.get();
 	cout << "Thank You!\n";

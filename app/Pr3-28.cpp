@@ -35,11 +35,8 @@ int main()
 
    // Calculate the crate's volume, the cost to produce it,
    // the charge to the customer, and the profit.
-   volume = length * width * height;
-   cost = volume * COST_PER_CUBIC_FOOT;
-   charge = volume * CHARGE_PER_CUBIC_FOOT;
-   profit = charge - cost;
-   
+
+
    // Display the calculated data.
    cout << "The volume of the crate is ";
    cout << volume << " cubic feet.\n";

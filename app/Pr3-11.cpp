@@ -20,24 +20,29 @@ int main()
    cout << "inventory. What was the beginning inventory? ";
    cin >> begInv;
    
-   // Set each store's inventory.
-   store1 = store2 = store3 = begInv;
-   
-   // Get the number of widgets sold at store 1.
+   // Set the inventory value read from keyboard into store1, store2, and store3.
+
    cout << "How many widgets has store 1 sold? ";
-   cin >> sold;
-   store1 -= sold; // Adjust store 1's inventory.
-   
+
+   // From keyboard, get the number of widgets sold for store 1 and set it to variable sold.
+
+   // Adjust store 1's inventory
+
    // Get the number of widgets sold at store 2.
    cout << "How many widgets has store 2 sold? ";
-   cin >> sold;
-   store2 -= sold; // Adjust store 2's inventory.
-   
+
+   // From keyboard, get the number of widgets sold for store 2 and set it to variable sold.
+
+   // Adjust store 2's inventory
+
+
    // Get the number of widgets sold at store 3.
    cout << "How many widgets has store 3 sold? ";
-   cin >> sold;
-   store3 -= sold; // Adjust store 3's inventory.
-   
+
+   // From keyboard, get the number of widgets sold for store 3 and set it to variable sold.
+
+   // Adjust store 3's inventory
+
    // Display each store's current inventory.
    cout << "\nThe current inventory of each store:\n";
    cout << "Store 1: " << store1 << endl;

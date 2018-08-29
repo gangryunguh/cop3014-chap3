@@ -13,7 +13,9 @@ int main()
    cin >> num2;
    cout << "Enter the third number: ";
    cin >> num3;
-   avg = (num1 + num2 + num3) / 3;
+
+   // compute the average of the sum of num1, num2, and num3 and store it into the variable avg
+
    cout << "The average is " << avg << endl;
    return 0;
 }

@@ -9,9 +9,11 @@ int main()
    int number;                     // Define an integer variable
 
    cout << "Enter a number: ";
-   cin >> number;                  // Read an integer
+   // From keyboard, read integer value into variable number
+
    cout << "Enter a character: ";
-   ch = cin.get();                 // Read a character
-   cout << "Thank You!\n";
+   // From keyboard, read a single character value into variable ch using cin get method
+
+    cout << "ch= " << ch << ", Thank You!\n";
    return 0;
 }

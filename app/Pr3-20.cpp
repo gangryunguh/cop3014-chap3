@@ -7,7 +7,8 @@ int main()
 	char ch;
 
 	cout << "Type a character and press Enter: ";
-	cin >> ch;
+	// From keyboard, read one character into variable ch using stream extract operator
+
 	cout << "You entered " << ch << endl;
 	return 0;
 }
